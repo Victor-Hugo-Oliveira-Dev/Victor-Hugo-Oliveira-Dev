@@ -2,7 +2,13 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/Victor-Hugo-Oliveira-Dev/Victor-Hugo-Oliveira-Dev/output/snake.svg" alt="Snake animation" />
+<br clear="both">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Victor-Hugo-Oliveira-Dev/Victor-Hugo-Oliveira-Dev/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Victor-Hugo-Oliveira-Dev/Victor-Hugo-Oliveira-Dev/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Victor-Hugo-Oliveira-Dev/Victor-Hugo-Oliveira-Dev/output/pacman-contribution-graph.svg">
+</picture>
 
 ###
 
@@ -28,10 +34,6 @@
 
 ###
 
-<img align="right" height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2YxNnJ5NXNpbjZma3QyN3Fja3B2eW52bHk1N2Y3Y2Y3aWkyaW1mNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1U4S8219ByoGk/giphy.gif"  />
-
-###
-
 <div align="left">
   <a href="https://www.linkedin.com/in/victor-hugo-oliveira-34096a28a/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
@@ -43,6 +45,10 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
   </a>
 </div>
+
+###
+
+<img align="right" height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2YxNnJ5NXNpbjZma3QyN3Fja3B2eW52bHk1N2Y3Y2Y3aWkyaW1mNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1U4S8219ByoGk/giphy.gif"  />
 
 ###
 
