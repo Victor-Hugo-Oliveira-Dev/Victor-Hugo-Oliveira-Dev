@@ -36,10 +36,6 @@
 
 ###
 
-<img align="right" height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2YxNnJ5NXNpbjZma3QyN3Fja3B2eW52bHk1N2Y3Y2Y3aWkyaW1mNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1U4S8219ByoGk/giphy.gif"  />
-
-###
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Victor-Hugo-Oliveira-Dev&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=aura&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Victor-Hugo-Oliveira-Dev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=aura&hide_border=true&order=2" height="150" alt="languages graph"  />
