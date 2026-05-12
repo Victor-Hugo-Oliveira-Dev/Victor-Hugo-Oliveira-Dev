@@ -1,0 +1,41 @@
+name: Generate Pacman Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pillow requests
+
+      - name: Generate Pacman graph
+        run: |
+          mkdir -p pacman-output
+          curl -L "https://raw.githubusercontent.com/rafaballerini/pacman-contribution/main/pacman.py" -o pacman.py
+          python pacman.py --username ${{ github.repository_owner }} --output pacman-output/pacman-contribution-graph.svg
+          
+          # Gera versão dark
+          python pacman.py --username ${{ github.repository_owner }} --output pacman-output/pacman-contribution-graph-dark.svg --dark
+
+      - name: Deploy to pacman-output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: pacman-output
+          publish_dir: ./pacman-output
+          force_orphan: true
