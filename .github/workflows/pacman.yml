@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repo
@@ -21,19 +23,21 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pillow requests
+        run: pip install requests
 
       - name: Generate Pacman graph
         run: |
+          rm -rf pacman-output
           mkdir -p pacman-output
-          curl -L "https://raw.githubusercontent.com/rafaballerini/pacman-contribution/main/pacman.py" -o pacman.py
-          python pacman.py --username ${{ github.repository_owner }} --output pacman-output/pacman-contribution-graph.svg
+          
+          # Usando o script local em vez de baixar da internet
+          python scripts/pacman.py --username ${{ github.repository_owner }} --output pacman-output/pacman-contribution-graph.svg
           
           # Gera versão dark
-          python pacman.py --username ${{ github.repository_owner }} --output pacman-output/pacman-contribution-graph-dark.svg --dark
+          python scripts/pacman.py --username ${{ github.repository_owner }} --output pacman-output/pacman-contribution-graph-dark.svg --dark
 
       - name: Deploy to pacman-output branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: pacman-output
