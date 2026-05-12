@@ -1,0 +1,37 @@
+name: Generate Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Roda todo dia à meia-noite
+  workflow_dispatch:     # Permite rodar manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # Permite fazer push no branch
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install -g github-readme-stats
+
+      - name: Generate stats SVG
+        run: |
+          mkdir -p stats-output
+          curl -L "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dark&hide_border=true" -o stats-output/stats.svg
+
+      - name: Deploy to stats-output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: stats-output
+          publish_dir: ./stats-output
+          force_orphan: true
