@@ -22,20 +22,20 @@
 
 ###
 
-<h1 align="center">Hello, World! 👋</h1>
+<h1 align="center">Hello, World!</h1>
 
 ###
 
-<h3 align="left">✨ Sobre mim</h3>
+<h3 align="left">Sobre mim</h3>
 
 ###
 
 <p align="left">
 Desenvolvedor Full-Stack com especialização em <strong>Back-end</strong> e forte capacidade de resolver problemas fora do comum. Desenvolvi sistemas como repositórios culturais, plataformas para academias de artes marciais, landing pages profissionais e páginas para comércios locais.
 <br/><br/>
-📌 Em projetos acadêmicos, criei games em Python, um sistema de <strong>feedback multiplataforma (mobile + desktop)</strong> para um município, além de estratégias ativas de <strong>otimização de consumo de memória</strong>. Também desenvolvi uma alternativa funcional para a ausência de bibliotecas de MP4 dentro do PyGame — provando que não dependo de soluções prontas para entregar resultado.
+Em projetos acadêmicos, criei games em Python, um sistema de <strong>feedback multiplataforma (mobile + desktop)</strong> para um município, além de estratégias ativas de <strong>otimização de consumo de memória</strong>. Também desenvolvi uma alternativa funcional para a ausência de bibliotecas de MP4 dentro do PyGame — provando que não dependo de soluções prontas para entregar resultado.
 <br/><br/>
-⚡ Atualmente sou <strong>técnico em eletrônica</strong> e <strong>freelancer</strong>, sempre em busca de novos conhecimentos, técnicos ou pessoais. Busco oportunidades como desenvolvedor Back-end ou Full-Stack onde eu possa aplicar criatividade técnica e visão sistêmica.
+Atualmente sou <strong>técnico em eletrônica</strong> e <strong>freelancer</strong>, sempre em busca de novos conhecimentos, técnicos ou pessoais. Busco oportunidades como desenvolvedor Back-end ou Full-Stack onde eu possa aplicar criatividade técnica e visão sistêmica.
 </p>
 
 ###
