@@ -62,12 +62,6 @@ Atualmente sou <strong>técnico em eletrônica</strong> e <strong>freelancer</st
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="docker" />
 </div>
 
-###
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/victor-hugo-oliveira-dev/victor-hugo-oliveira-dev/stats-output/stats.svg" height="150" alt="stats graph" />
-  <img src="https://raw.githubusercontent.com/victor-hugo-oliveira-dev/victor-hugo-oliveira-dev/languages-output/languages.svg" height="150" alt="languages graph" />
-</div>
 
 ###
 
