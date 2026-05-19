@@ -40,7 +40,7 @@ Atualmente sou <strong>técnico em eletrônica</strong> e <strong>freelancer</st
 
 ###
 
-<h3 align="left">🛠️ Linguagens e ferramentas</h3>
+<h3 align="left"> Linguagens e ferramentas</h3>
 
 ###
 
